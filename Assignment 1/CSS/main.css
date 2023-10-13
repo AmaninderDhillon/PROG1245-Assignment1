@@ -1,0 +1,67 @@
+/* Amaninder Singh Dhillon, 8975714 */
+body{
+    width: 100%;  
+    max-width: 1600px;
+    margin: auto;
+    font: normal normal normal 12px/15px sans-serif;
+    padding: 5px; }
+.headerandfooter{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 5px;}
+h1{
+    color: rgb(169, 6, 6);
+    font-variant: small-caps;
+}
+h2{
+    color: rgb(62, 133, 22);
+    font-variant: small-caps;
+}
+footer p{
+    font-size: medium;
+    color: rgb(150, 15, 62);
+}
+main{
+    float: left;
+    width: 68vw;
+    padding: 5px;
+    margin: 8px;
+}
+aside{
+    float: right;
+    width: 25vw;   
+    padding: 5px;
+    margin: 8px;
+}
+footer{
+    clear: both;
+}
+.mainimg{
+    border: 3px solid rgb(157, 89, 5);
+}
+figcaption{
+    font-style: bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+}
+ul li{
+    list-style: none;
+    line-height: 30px;
+}
+li > a{ 
+    color: rgb(7, 115, 178);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+/*Extra*/
+html{
+    background-color: rgb(220, 212, 212);
+}
